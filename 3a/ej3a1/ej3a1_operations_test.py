@@ -28,3 +28,11 @@ def test_dividir():
 def test_division_por_cero():
     with pytest.raises(ZeroDivisionError):
         ej3a1_operations.divide(8, 0),  "The zero division operation does not work"
+
+# Para ejecutar el test
+# desde cualquier ubicacion:
+# python -m pytest .\python-b1-tema3-20251-aula1-rolycastro\3a\ej3a1\ej3a1_operations_test.py -q
+
+# Desde la ubicacion del ejecicio:
+# PS C:\Users\roly-\Desktop\UOC Python 2025\B1\tema_3\python-b1-tema3-20251-aula1-rolycastro\3a\ej3a1> 
+# python -m pytest ej3a1_operations_test.py -q
