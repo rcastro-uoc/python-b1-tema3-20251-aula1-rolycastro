@@ -30,3 +30,7 @@ def test_triangle_area():
 def test_circle_area():
     result = geometry.circle_area(5)
     assert round(result, 2) == 78.54,  "The circle_area operation does not work"
+
+# Para ejecutar test
+# abrie "ej3a2_main_test.py" en una nueva terminal "Open in integrated terminal"
+# python -m pytest ej3a2_main_test.py -q
