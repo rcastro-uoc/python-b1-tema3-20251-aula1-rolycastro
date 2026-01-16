@@ -26,3 +26,7 @@ def test_date_operations():
     assert date_operations.middle_day_between_two_dates(
         datetime.datetime(2024, 5, 1, 0, 0), datetime.datetime(2024, 5, 11, 0, 0)
     ) == datetime.datetime(2024, 5, 6, 0, 0), "middle_day_between_two_dates does not return the correct value for input datetime.datetime(2024, 5, 1, 0, 0), datetime.datetime(2024, 5, 11, 0, 0). It should be datetime.datetime(2024, 5, 6, 0, 0)"
+
+# Para ejecutar test
+# abrie "ej3a3_main_test.py" en una nueva terminal "Open in integrated terminal"
+# python -m pytest ej3a3_main_test.py -q
